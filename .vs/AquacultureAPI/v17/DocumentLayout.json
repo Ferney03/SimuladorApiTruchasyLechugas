@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|c:\\users\\usuario\\desktop\\aquaculture-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|c:\\users\\usuario\\desktop\\aquaculture-api\\controllers\\graphicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|solutionrelative:controllers\\graphicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|c:\\users\\usuario\\desktop\\aquaculture-api\\controllers\\predictioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|solutionrelative:controllers\\predictioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|c:\\users\\usuario\\desktop\\aquaculture-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|c:\\users\\usuario\\desktop\\aquaculture-api\\services\\truchasimulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|solutionrelative:services\\truchasimulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|c:\\users\\usuario\\desktop\\aquaculture-api\\services\\lechugasimulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|solutionrelative:services\\lechugasimulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|c:\\users\\usuario\\desktop\\aquaculture-api\\services\\dataseedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|solutionrelative:services\\dataseedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|c:\\users\\usuario\\desktop\\aquaculture-api\\data\\aquaculturecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|solutionrelative:data\\aquaculturecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|c:\\users\\usuario\\desktop\\aquaculture-api\\services\\simulationbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|solutionrelative:services\\simulationbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|c:\\users\\usuario\\desktop\\aquaculture-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|c:\\users\\usuario\\desktop\\aquaculture-api\\services\\simulationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|solutionrelative:services\\simulationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|c:\\users\\usuario\\desktop\\aquaculture-api\\controllers\\lechugascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|solutionrelative:controllers\\lechugascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|c:\\users\\usuario\\desktop\\aquaculture-api\\controllers\\truchascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC17588-5BB4-4560-BB98-6C73B3A2CE0B}|AquacultureAPI.csproj|solutionrelative:controllers\\truchascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GraphicsController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Controllers\\GraphicsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GraphicsController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Controllers\\GraphicsController.cs",
+              "RelativeToolTip": "Controllers\\GraphicsController.cs",
+              "ViewState": "AQIAANIBAAAAAAAAAAAwwOQBAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T22:06:20.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AquacultureContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Data\\AquacultureContext.cs",
+              "RelativeDocumentMoniker": "Data\\AquacultureContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Data\\AquacultureContext.cs",
+              "RelativeToolTip": "Data\\AquacultureContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T16:00:20.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataSeedService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Services\\DataSeedService.cs",
+              "RelativeDocumentMoniker": "Services\\DataSeedService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Services\\DataSeedService.cs",
+              "RelativeToolTip": "Services\\DataSeedService.cs",
+              "ViewState": "AQIAAC8BAAAAAAAAAAAwwEcBAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T02:02:20.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LechugaSimulationService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Services\\LechugaSimulationService.cs",
+              "RelativeDocumentMoniker": "Services\\LechugaSimulationService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Services\\LechugaSimulationService.cs",
+              "RelativeToolTip": "Services\\LechugaSimulationService.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAwwHIAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T02:02:36.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-29T01:36:46.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PredictionController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Controllers\\PredictionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PredictionController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Controllers\\PredictionController.cs",
+              "RelativeToolTip": "Controllers\\PredictionController.cs",
+              "ViewState": "AQIAAFcBAAAAAAAAAAAwwIcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T22:07:57.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TruchaSimulationService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Services\\TruchaSimulationService.cs",
+              "RelativeDocumentMoniker": "Services\\TruchaSimulationService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Services\\TruchaSimulationService.cs",
+              "RelativeToolTip": "Services\\TruchaSimulationService.cs",
+              "ViewState": "AQIAALAAAAAAAAAAAAAwwNoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T02:02:58.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwEgAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:40:00.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SimulationBackgroundService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Services\\SimulationBackgroundService.cs",
+              "RelativeDocumentMoniker": "Services\\SimulationBackgroundService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Services\\SimulationBackgroundService.cs",
+              "RelativeToolTip": "Services\\SimulationBackgroundService.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAwwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T02:02:47.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T20:36:03.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SimulationHub.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Services\\SimulationHub.cs",
+              "RelativeDocumentMoniker": "Services\\SimulationHub.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Services\\SimulationHub.cs",
+              "RelativeToolTip": "Services\\SimulationHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:40:04.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LechugasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Controllers\\LechugasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LechugasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Controllers\\LechugasController.cs",
+              "RelativeToolTip": "Controllers\\LechugasController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwCMBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:51:43.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TruchasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Controllers\\TruchasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TruchasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Controllers\\TruchasController.cs",
+              "RelativeToolTip": "Controllers\\TruchasController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAswP0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:52:01.007Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
