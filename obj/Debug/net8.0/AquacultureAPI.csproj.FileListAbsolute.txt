@@ -122,6 +122,7 @@ C:\Users\Usuario\Desktop\aquaculture-api\obj\Debug\net8.0\AquacultureAPI.Assembl
 C:\Users\Usuario\Desktop\aquaculture-api\obj\Debug\net8.0\AquacultureAPI.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\aquaculture-api\obj\Debug\net8.0\AquacultureAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Usuario\Desktop\aquaculture-api\obj\Debug\net8.0\AquacultureAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Desktop\aquaculture-api\obj\Debug\net8.0\AquacultureAPI.sourcelink.json
 C:\Users\Usuario\Desktop\aquaculture-api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Usuario\Desktop\aquaculture-api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Usuario\Desktop\aquaculture-api\obj\Debug\net8.0\staticwebassets\msbuild.AquacultureAPI.Microsoft.AspNetCore.StaticWebAssets.props

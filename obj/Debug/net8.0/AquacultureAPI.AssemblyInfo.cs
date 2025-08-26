@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AquacultureAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b15eeea9ce05dcd362ff7877eea3d97048619cb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("AquacultureAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AquacultureAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
