@@ -96,8 +96,8 @@ namespace AquacultureAPI.Services
             // Convertir segundos a meses reales
             double mesesReales = _currentTime / (30.0 * 24.0 * 60.0 * 60.0); // 30 días por mes
 
-            // Determinar si generar anomalía (cada 500 datos)
-            bool generarAnomalia = (_dataCounter % 500) == 0;
+            // Determinar si generar anomalía (cada 5 datos)
+            bool generarAnomalia = (_dataCounter % 5) == 0;
 
             // Parámetros ambientales óptimos
             double temperatura = GenerarTemperatura(generarAnomalia);

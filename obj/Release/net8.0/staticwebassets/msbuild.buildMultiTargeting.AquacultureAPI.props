@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AquacultureAPI.props" />
+</Project>

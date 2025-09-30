@@ -1,41 +1,43 @@
-using Microsoft.EntityFrameworkCore;
-using AquacultureAPI.Data;
+Ôªøusing AquacultureAPI.Data;
 using AquacultureAPI.Services;
-using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// CONFIGURAR PARA ESCUCHAR EN TODAS LAS INTERFACES DE RED
-builder.WebHost.UseUrls("http://0.0.0.0:55839");
-
-// Add services to the container.
+// ------------------- Servicios -------------------
+// Controladores
 builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
-// Add Entity Framework
-builder.Services.AddDbContext<AquacultureContext>(options =>
+// Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
-        sqlOptions =>
-        {
-            sqlOptions.CommandTimeout(300); // 5 minutos de timeout
-            sqlOptions.EnableRetryOnFailure(3); // Reintentos autom·ticos
-        });
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "Aquaculture API",
+        Version = "v1",
+        Description = "API para gesti√≥n del sistema acuap√≥nico"
+    });
 });
 
-// Add SignalR
-builder.Services.AddSignalR();
+// Entity Framework (registrar DbContext)
+builder.Services.AddDbContext<AquacultureContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
 
-// Add simulation services
+// Registrar servicios personalizados para inyecci√≥n de dependencias
 builder.Services.AddSingleton<TruchaSimulationService>();
 builder.Services.AddSingleton<LechugaSimulationService>();
 builder.Services.AddHostedService<SimulationBackgroundService>();
 
-// Agregar el servicio de seed despuÈs de AddHostedService
-builder.Services.AddScoped<DataSeedService>();
+// CR√çTICO: Registrar el BackgroundService que genera datos cada 15 segundos
+builder.Services.AddHostedService<SimulationBackgroundService>();
 
-// Add CORS para permitir acceso desde cualquier origen
+// SignalR (si lo usas para enviar datos en tiempo real)
+builder.Services.AddSignalR();
+
+// CORS (permite conexiones desde cualquier origen/red)
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -46,50 +48,50 @@ builder.Services.AddCors(options =>
     });
 });
 
+// ------------------- App -------------------
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Forzar a escuchar en todas las interfaces de red (LAN/WiFi)
+app.Urls.Add("http://0.0.0.0:5100");
 
-// REMOVER UseHttpsRedirection para evitar problemas de puerto
-// app.UseHttpsRedirection();
-
-app.UseCors("AllowAll");
-app.UseAuthorization();
-
-app.MapControllers();
-app.MapHub<SimulationHub>("/simulationHub");
-
-// Ensure database is created and seed data
+// Aplicar migraciones y ejecutar seeder (solo una vez)
 using (var scope = app.Services.CreateScope())
 {
+    var services = scope.ServiceProvider;
+    var logger = services.GetRequiredService<ILogger<Program>>();
     try
     {
-        var context = scope.ServiceProvider.GetRequiredService<AquacultureContext>();
-        var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
+        var context = services.GetRequiredService<AquacultureContext>();
 
-        logger.LogInformation("Creando base de datos...");
-        context.Database.SetCommandTimeout(600); // 10 minutos para operaciones de inicializaciÛn
-        context.Database.EnsureCreated();
+        logger.LogInformation("Aplicando migraciones pendientes...");
+        context.Database.Migrate();
 
-        logger.LogInformation("Iniciando seed de datos histÛricos...");
-        var seedService = scope.ServiceProvider.GetRequiredService<DataSeedService>();
-        await seedService.SeedHistoricalDataAsync();
+        logger.LogInformation("Ejecutando DbInitializer para datos hist√≥ricos...");
+        DbInitializer.Initialize(context);
 
-        logger.LogInformation("InicializaciÛn completada exitosamente");
-        logger.LogInformation("API disponible en: http://0.0.0.0:55839");
-        logger.LogInformation("Swagger disponible en: http://0.0.0.0:55839/swagger");
+        logger.LogInformation("‚úì Base de datos lista");
     }
     catch (Exception ex)
     {
-        var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "Error durante la inicializaciÛn de la base de datos");
-        // No lanzar la excepciÛn para que la aplicaciÛn pueda continuar
+        logger.LogError(ex, "‚ùå Error aplicando migraciones o inicializando datos");
     }
 }
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Aquaculture API v1");
+        c.RoutePrefix = "swagger";
+    });
+}
+
+app.UseCors("AllowAll");
+app.UseAuthorization();
+app.MapControllers();
+
+// Si usas SignalR, mapea el hub
+app.MapHub<SimulationHub>("/simulationHub");
 
 app.Run();

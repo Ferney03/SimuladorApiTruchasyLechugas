@@ -78,7 +78,7 @@ namespace AquacultureAPI.Services
                 await InitializeFromDatabaseAsync();
             }
 
-            _currentTime += 15; // CAMBIADO: Cada 15 segundos en lugar de 5
+            _currentTime += 15;
 
             // Convertir segundos a días reales
             double diasReales = _currentTime / 86400.0;
