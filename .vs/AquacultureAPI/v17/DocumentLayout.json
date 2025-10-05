@@ -104,8 +104,7 @@
               "RelativeToolTip": "Services\\DataSeedService.cs",
               "ViewState": "AQIAAEABAAAAAAAAAAAwwFkBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T02:02:20.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T02:02:20.584Z"
             },
             {
               "$type": "Document",
@@ -117,8 +116,7 @@
               "RelativeToolTip": "Services\\SimulationBackgroundService.cs",
               "ViewState": "AQIAACgAAAAAAAAAAAAAAEQAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T02:02:47.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T02:02:47.929Z"
             },
             {
               "$type": "Document",
@@ -130,8 +128,7 @@
               "RelativeToolTip": "Services\\LechugaSimulationService.cs",
               "ViewState": "AQIAAHUAAAAAAAAAAAAIwH0AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T02:02:36.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T02:02:36.943Z"
             },
             {
               "$type": "Document",
@@ -141,7 +138,7 @@
               "RelativeDocumentMoniker": "Services\\TruchaSimulationService.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\aquaculture-api\\Services\\TruchaSimulationService.cs",
               "RelativeToolTip": "Services\\TruchaSimulationService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAiwMsAAAAhAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAiwCQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-29T02:02:58.701Z",
               "EditorCaption": ""
@@ -156,8 +153,7 @@
               "RelativeToolTip": "Services\\SimulationHub.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T01:40:04.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T01:40:04.674Z"
             },
             {
               "$type": "Document",
@@ -169,8 +165,7 @@
               "RelativeToolTip": "Data\\DbInitializer.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAgwC8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T01:55:17.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T01:55:17.789Z"
             },
             {
               "$type": "Document",
@@ -182,8 +177,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T01:40:00.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T01:40:00.308Z"
             },
             {
               "$type": "Document",
@@ -195,8 +189,7 @@
               "RelativeToolTip": "Data\\AquacultureContext.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAUwEgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T16:00:20.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T16:00:20.766Z"
             },
             {
               "$type": "Document",
@@ -208,8 +201,7 @@
               "RelativeToolTip": "Controllers\\GraphicsController.cs",
               "ViewState": "AQIAAOgBAAAAAAAAAAAkwP4BAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T22:06:20.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T22:06:20.63Z"
             },
             {
               "$type": "Document",
@@ -221,8 +213,7 @@
               "RelativeToolTip": "Controllers\\TruchasController.cs",
               "ViewState": "AQIAAG4AAAAAAAAAAAAuwP0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T01:52:01.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T01:52:01.007Z"
             },
             {
               "$type": "Document",
@@ -234,8 +225,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-29T01:36:46.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T01:36:46.472Z"
             },
             {
               "$type": "Document",
@@ -247,8 +237,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-01T20:36:03.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T20:36:03.05Z"
             },
             {
               "$type": "Document",
@@ -260,8 +249,7 @@
               "RelativeToolTip": "Controllers\\PredictionController.cs",
               "ViewState": "AQIAAGAAAAAAAAAAAAAUwIcBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T22:07:57.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T22:07:57.336Z"
             },
             {
               "$type": "Document",
@@ -273,8 +261,7 @@
               "RelativeToolTip": "Controllers\\LechugasController.cs",
               "ViewState": "AQIAAAsBAAAAAAAAAAAqwCMBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T01:51:43.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T01:51:43.923Z"
             },
             {
               "$type": "Document",
